@@ -1,0 +1,34 @@
+.container-notfound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-notfound .not-found {
+    width: 65%;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.3);
+    border-radius: 15px;
+}
+
+.container-notfound h3 {
+    margin-top: 20px;
+}
+
+.container-notfound .arbol {
+    margin-top: 20px;
+    width: 60%;
+}
+
+@media (max-width: 768px){
+  .container-notfound .not-found{
+    width: 100%;
+    margin: 0px 10px 0px 10px;
+  }
+}
+
+@media (max-width: 425px){
+  .container-notfound h3 {
+    font-size: 15px;
+  }
+}

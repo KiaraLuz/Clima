@@ -1,0 +1,62 @@
+.container-welcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 150px;
+}
+
+.container-welcome h4 {
+  font-weight: 400;
+  color: #696868;
+}
+
+.content {
+  transform: rotate(112deg) scaleX(-1);
+}
+
+.arrow {
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.arrow .curve {
+	border: 2px solid #000;
+	border-color: transparent transparent transparent #000;
+	height: 160px;
+	width: 400px;
+	border-radius: 230px 0 0 150px;
+}
+
+.arrow .point {
+	position: absolute;
+	left: 40px;
+	top: 315px;
+}
+
+.arrow .point:before, .arrow .point:after {
+	border: 1px solid #000;
+	height: 25px;
+	content: "";
+	position: absolute;
+}
+
+.arrow .point:before {
+	top: -192px;
+	left: -35px;
+	transform:rotate(-74deg);
+}
+
+.arrow .point:after {
+	top: -202px;
+	left: -22px;
+	transform:rotate(5deg);
+}
+
+@media (max-width: 768px){
+  .container-welcome {
+    display: none;
+  }
+}
