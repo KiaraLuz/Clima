@@ -43,6 +43,8 @@ export const Card = ({showData, loadingData, weather, forecast, location}) => {
     forecastDate6 = forecast.list[2].dt_txt.substring(8, 10) + '/' + forecast.list[2].dt_txt.substring(5, 7) + '/' + forecast.list[2].dt_txt.substring(0, 4) + ' ' +  forecast.list[2].dt_txt.substring(11, 13);
     forecastDate9 = forecast.list[3].dt_txt.substring(8, 10) + '/' + forecast.list[3].dt_txt.substring(5, 7) + '/' + forecast.list[3].dt_txt.substring(0, 4) + ' ' +  forecast.list[3].dt_txt.substring(11, 13);
     
+    //Fondo de clima
+    {
     if(weather.weather[0].description == "muy nuboso") {
       paisaje = "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/storm-clouds-falling-in-black-and-white-vertical-gill-billington.jpg";
     }
@@ -85,6 +87,7 @@ export const Card = ({showData, loadingData, weather, forecast, location}) => {
 
     if(weather.weather[0].description == "niebla") {
       paisaje = "https://pbs.twimg.com/media/DKwkawvXUAEjtxP?format=jpg&name=small"
+    }
     }
   }
   
