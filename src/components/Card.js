@@ -82,6 +82,10 @@ export const Card = ({showData, loadingData, weather, forecast, location}) => {
     if(weather.weather[0].description == "tormenta con lluvia ligera") {
       paisaje = "https://w0.peakpx.com/wallpaper/543/429/HD-wallpaper-storm-blue-galaxy-grey-rain-sky.jpg"
     }
+
+    if(weather.weather[0].description == "niebla") {
+      paisaje = "https://pbs.twimg.com/media/DKwkawvXUAEjtxP?format=jpg&name=small"
+    }
   }
   
   return (
