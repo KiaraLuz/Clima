@@ -45,49 +45,53 @@ export const Card = ({showData, loadingData, weather, forecast, location}) => {
     
     //Fondo de clima
     {
-    if(weather.weather[0].description == "muy nuboso") {
-      paisaje = "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/storm-clouds-falling-in-black-and-white-vertical-gill-billington.jpg";
-    }
-    
-    if(weather.weather[0].description == "nubes dispersas") {
-      paisaje = "https://us.123rf.com/450wm/a454/a4541601/a454160100016/50886536-nubes-dispersas-por-el-cielo-las-nubes-se-dispersaron-en-un-d%C3%ADa-claro-y-despejado-.jpg";
-    }
+      if(weather.weather[0].description == "muy nuboso") {
+        paisaje = "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/storm-clouds-falling-in-black-and-white-vertical-gill-billington.jpg";
+      }
+      
+      if(weather.weather[0].description == "nubes dispersas") {
+        paisaje = "https://us.123rf.com/450wm/a454/a4541601/a454160100016/50886536-nubes-dispersas-por-el-cielo-las-nubes-se-dispersaron-en-un-d%C3%ADa-claro-y-despejado-.jpg";
+      }
 
-    if(weather.weather[0].description == "cielo claro") {
-      paisaje = "https://img.freepik.com/fotos-premium/cielo-azul-claro-gradiente-oscuro-claro-vertical_156745-1219.jpg"
-    }
+      if(weather.weather[0].description == "cielo claro") {
+        paisaje = "https://img.freepik.com/fotos-premium/cielo-azul-claro-gradiente-oscuro-claro-vertical_156745-1219.jpg"
+      }
 
-    if(weather.weather[0].description == "llovizna ligera") {
-      paisaje = "https://w0.peakpx.com/wallpaper/591/944/HD-wallpaper-drizzle-drops-glass-outside-rain-water-weather-window.jpg"
-    }
+      if(weather.weather[0].description == "llovizna ligera") {
+        paisaje = "https://w0.peakpx.com/wallpaper/591/944/HD-wallpaper-drizzle-drops-glass-outside-rain-water-weather-window.jpg"
+      }
 
-    if(weather.weather[0].description == "nubes") {
-      paisaje = "https://i.pinimg.com/originals/f5/40/4b/f5404bf8c55f73d41e00eee5a8d05ed1.jpg"
-    }
+      if(weather.weather[0].description == "nubes") {
+        paisaje = "https://i.pinimg.com/originals/f5/40/4b/f5404bf8c55f73d41e00eee5a8d05ed1.jpg"
+      }
 
-    if(weather.weather[0].description == "lluvia ligera") {
-      paisaje = "https://img.freepik.com/fotos-premium/gotas-lluvia-caen-sobre-ventana-fuertes-lluvias_67721-447.jpg?w=2000";
-    }
+      if(weather.weather[0].description == "lluvia ligera") {
+        paisaje = "https://img.freepik.com/fotos-premium/gotas-lluvia-caen-sobre-ventana-fuertes-lluvias_67721-447.jpg?w=2000";
+      }
 
-    if(weather.weather[0].description == "lluvia moderada") {
-      paisaje = "https://i.pinimg.com/236x/a0/ac/63/a0ac6357ef6a3337514e0af94ea070f1.jpg"
-    }
+      if(weather.weather[0].description == "lluvia moderada") {
+        paisaje = "https://i.pinimg.com/236x/a0/ac/63/a0ac6357ef6a3337514e0af94ea070f1.jpg"
+      }
 
-    if(weather.weather[0].description == "algo de nubes") {
-      paisaje = "https://img.freepik.com/fotos-premium/cielo-azul-nubes-fondo-vertical-espacio-texto_483040-2621.jpg?w=2000"
-    }
+      if(weather.weather[0].description == "algo de nubes") {
+        paisaje = "https://img.freepik.com/fotos-premium/cielo-azul-nubes-fondo-vertical-espacio-texto_483040-2621.jpg?w=2000"
+      }
 
-    if(weather.weather[0].description == "nevada ligera") {
-      paisaje = "https://w0.peakpx.com/wallpaper/606/225/HD-wallpaper-winter-red-berries-berries-trees-plants-vertical-snow-snow-covered.jpg"
-    }
+      if(weather.weather[0].description == "nevada ligera") {
+        paisaje = "https://w0.peakpx.com/wallpaper/606/225/HD-wallpaper-winter-red-berries-berries-trees-plants-vertical-snow-snow-covered.jpg"
+      }
 
-    if(weather.weather[0].description == "tormenta con lluvia ligera") {
-      paisaje = "https://w0.peakpx.com/wallpaper/543/429/HD-wallpaper-storm-blue-galaxy-grey-rain-sky.jpg"
-    }
+      if(weather.weather[0].description == "tormenta con lluvia ligera") {
+        paisaje = "https://w0.peakpx.com/wallpaper/543/429/HD-wallpaper-storm-blue-galaxy-grey-rain-sky.jpg"
+      }
 
-    if(weather.weather[0].description == "niebla") {
-      paisaje = "https://pbs.twimg.com/media/DKwkawvXUAEjtxP?format=jpg&name=small"
-    }
+      if(weather.weather[0].description == "niebla") {
+        paisaje = "https://pbs.twimg.com/media/DKwkawvXUAEjtxP?format=jpg&name=small"
+      }
+
+      if(weather.weather[0].description == "bruma") {
+        paisaje = "https://i.blogs.es/549bf4/trucos-consejos-hacer-fotos-niebla-neblina-01/450_1000.webp"
+      }
     }
   }
   
