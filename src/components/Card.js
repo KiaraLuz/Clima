@@ -23,7 +23,7 @@ export const Card = ({showData, loadingData, weather, forecast, location}) => {
   var forecastDate6 = "";
   var forecastDate9 = "";
 
-  var paisaje = "";
+  var paisaje = "https://images.unsplash.com/photo-1588421357574-87938a86fa28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80";
 
   console.log(location.length);
 
